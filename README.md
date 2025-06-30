@@ -8,10 +8,13 @@ This project focuses on analyzing employee attrition trends using an HR dataset.
 
 ## 🛠️ Tools Used
 
-- **SQL Server** – for data querying and preprocessing
-  👉 [SQL Code](./HR_Insights_&_Trends_Analysis_Sales_Analysis.sql)
-- **Power BI** – for dashboard creation and visual insights
-- **Microsoft Excel** – for initial dataset handling and structure validation
+- **SQL Server** — For querying, aggregation, and KPI extraction  
+  👉 [SQL Code](./HR_Insights_&_Trends_Analysis.sql)
+- **Power BI** — For data visualization and dashboarding  
+  👉 [Dashboard Screenshot](./HR_Insights_&_Trends_Analysis.png)
+- **Excel / CSV** — Raw dataset in spreadsheet format  
+  👉 [Dataset File](./Dataset/HR_Analytics.xlsx)
+
 
 ---
 
