@@ -76,11 +76,14 @@ This analysis reveals that employee attrition is influenced by multiple factors 
 
 ---
 
-## 📁 Repository Structure
 
-```plaintext
-HR-Attrition-Analysis/
-├── HR_Analytics.xlsx                # Original Dataset
-├── HR_Insights & Trends Analysis.sql   # SQL Queries (Basic to Advanced)
-├── PowerBI_Dashboard_Screenshot.png    # Visual Dashboard Snapshot
-└── README.md                        # Project Documentation
+
+## 📬 Contact
+
+**Author**: Mohan Kumar  
+**Mail**: mohan122000kumar@gmail.com
+
+---
+
+⭐ *Feel free to fork or star this repo if you found it useful!*
+
