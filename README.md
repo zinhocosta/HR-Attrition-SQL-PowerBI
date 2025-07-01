@@ -12,7 +12,7 @@ This project focuses on analyzing employee attrition trends using an HR dataset.
   👉 [SQL Code](./HR_Insights_&_Trends_Analysis.sql)
 - **Power BI** — For data visualization and dashboarding  
   👉 [Dashboard Screenshot](./HR_Insights_&_Trends_Analysis.png)
-- **Excel / CSV** — Raw dataset in spreadsheet format  
+- **Excel** — Raw dataset in spreadsheet format  
   👉 [Dataset File](./Dataset/HR_Analytics.xlsx)
 
 
