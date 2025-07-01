@@ -29,7 +29,7 @@ The dataset contains information on 1470 employees and includes features such as
 
 ---
 
-## ❓ Questions We Want to Answer
+## ❓ Questions Answered
 
 1. What is the overall employee attrition rate?
 2. Which age groups, departments, and roles face the highest attrition?
