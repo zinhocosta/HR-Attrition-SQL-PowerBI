@@ -2,7 +2,7 @@
 
 ## 📊 Project Overview
 
-This project focuses on analyzing employee attrition trends using an HR dataset. The goal is to understand the key factors driving employee turnover and provide actionable insights through data analysis and interactive visualization. By applying SQL queries and visualizing insights in Power BI, the project helps HR teams make data-driven decisions to reduce attrition and improve employee satisfaction.
+This project focuses on analyzing employee attrition trends using an HR dataset. The goal is to understand the key factors driving employee turnover and provide actionable insights through data analysis and interactive visualization. By applying **SQL** queries and visualizing insights in **Power BI**, the project helps HR teams make data-driven decisions to reduce attrition and improve employee satisfaction.
 
 ---
 
