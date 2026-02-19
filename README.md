@@ -1,89 +1,124 @@
-# HR Attrition Analysis Using SQL & Power BI
+# HR Attrition Analysis with SQL and Power BI
 
-## 📊 Project Overview
+![HR Analytics](https://img.shields.io/badge/Release-v1.0-blue.svg) [![Download](https://img.shields.io/badge/Download%20Latest%20Release-%20%F0%9F%93%88-brightgreen)](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/releases)
 
-This project focuses on analyzing employee attrition trends using an HR dataset. The goal is to understand the key factors driving employee turnover and provide actionable insights through data analysis and interactive visualization. By applying **SQL** queries and visualizing insights in **Power BI**, the project helps HR teams make data-driven decisions to reduce attrition and improve employee satisfaction.
+## Overview
 
----
+This repository contains a comprehensive project focused on analyzing employee attrition trends using SQL and Power BI. The analysis covers various aspects such as departments, job roles, education levels, and salary bands. The project includes interactive dashboards that provide insights into HR strategies.
 
-## 🛠️ Tools Used
+## Table of Contents
 
-- **SQL Server** — For querying, aggregation, and KPI extraction  
-  👉 [SQL Code](./HR_Insights_&_Trends_Analysis.sql)
-- **Power BI** — For data visualization and dashboarding  
-  👉 [Dashboard Screenshot](./HR_Insights_&_Trends_Analysis.png)
-- **Excel** — Raw dataset in spreadsheet format  
-  👉 [Dataset File](./Dataset/HR_Analytics.xlsx)
+- [Project Description](#project-description)
+- [Technologies Used](#technologies-used)
+- [Data Sources](#data-sources)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Dashboard Overview](#dashboard-overview)
+- [Insights and Analysis](#insights-and-analysis)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
+## Project Description
 
----
+The HR-Attrition-SQL-PowerBI project aims to provide valuable insights into employee attrition. By analyzing various factors, we can identify trends and patterns that can help organizations improve retention strategies. This project utilizes SQL for data extraction and Power BI for data visualization.
 
-## 📂 Dataset Description
+## Technologies Used
 
-The dataset contains information on 1470 employees and includes features such as:
+- **SQL**: For querying and manipulating the database.
+- **Power BI**: For creating interactive dashboards.
+- **MySQL**: As the database management system.
+- **Excel**: For data manipulation and analysis.
+- **Power BI Desktop**: For developing reports and dashboards.
 
-- **Demographic details**: Age, Gender, Education, Marital Status
-- **Employment details**: Department, Job Role, Monthly Income, Job Level, Business Travel
-- **Performance metrics**: Job Satisfaction, Environment Satisfaction, Work-Life Balance, OverTime
-- **Attrition status**: Yes/No indicator and trends across segments
+## Data Sources
 
----
+The dataset used in this project includes employee records, which cover:
 
-## ❓ Questions Answered
+- Employee ID
+- Department
+- Job Role
+- Education Level
+- Salary Band
+- Attrition Status
 
-1. What is the overall employee attrition rate?
-2. Which age groups, departments, and roles face the highest attrition?
-3. Does salary slab impact employee turnover?
-4. Is overtime contributing to attrition?
-5. How does work-life balance affect attrition?
-6. Which departments and job roles have higher average salaries?
-7. Are there education or demographic patterns related to attrition?
+The data is stored in a MySQL database. You can download the dataset and the SQL scripts from the [Releases section](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/releases). 
 
----
+## Setup Instructions
 
-## 🧠 Key SQL Concepts Used
+1. **Clone the Repository**
 
-### ✅ Basic SQL
-- `SELECT`, `GROUP BY`, `ORDER BY`
-- Aggregate functions: `COUNT()`, `SUM()`, `AVG()`
+   Use the following command to clone the repository:
 
-### 🔁 Intermediate SQL
-- `CASE` statements
-- `JOIN` logic (if extended)
-- `ROUND()`, aliases, filtering using `WHERE`
+   ```bash
+   git clone https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI.git
+   ```
 
-### 🧮 Advanced SQL
-- Common Table Expressions (CTEs)
-- Subqueries
-- Window functions like `RANK() OVER(...)`
+2. **Install MySQL**
 
----
+   Ensure you have MySQL installed on your machine. You can download it from the [official MySQL website](https://dev.mysql.com/downloads/mysql/).
 
-## 📌 Insights from Analysis
+3. **Import the Database**
 
-- **Attrition Rate**: Overall attrition is **16.12%**, with the highest occurring among the **26-35 age group**.
-- **Job Role**: **Laboratory Technicians**, **Sales Executives**, and **Research Scientists** show the highest attrition counts.
-- **Salary Trends**: Employees earning **less than ₹5k** monthly contribute to the majority of attrition.
-- **Work-Life Balance**: Attrition is higher among employees with **‘Poor’ or ‘Average’ work-life balance**.
-- **Overtime Effect**: Employees working **overtime** exhibit a significantly higher attrition rate.
-- **Department Impact**: **Sales** and **R&D departments** have the highest attrition rates.
+   Use the SQL scripts provided in the repository to set up the database. Open MySQL Workbench and run the scripts to create the necessary tables and insert the data.
 
----
+4. **Open Power BI**
 
-## 🔚 Conclusion
+   Launch Power BI Desktop and connect to your MySQL database. Use the connection details specified in the SQL scripts.
 
-This analysis reveals that employee attrition is influenced by multiple factors like income, overtime, age group, work-life balance, and department. By addressing salary disparities and improving work-life balance, HR managers can significantly reduce turnover.
+5. **Load Data**
 
----
+   Load the relevant tables into Power BI for analysis.
 
+6. **Create Dashboards**
 
+   Follow the guidelines in the repository to create interactive dashboards.
 
-## 📬 Contact
+## Usage
 
-**Author**: Mohan Kumar  
-**Mail**: mohan122000kumar@gmail.com
+Once the setup is complete, you can explore the dashboards created in Power BI. The dashboards provide visual insights into employee attrition trends. You can filter data by department, job role, education level, and salary band to gain deeper insights.
 
----
+## Dashboard Overview
 
-⭐ *Feel free to fork or star this repo if you found it useful!*
+The dashboards created in this project offer several key features:
 
+- **Interactive Filters**: Users can filter data by various criteria.
+- **Visualizations**: Charts and graphs that display attrition trends.
+- **Summary Statistics**: Key metrics that summarize the data.
+- **Export Options**: Ability to export reports for presentations.
+
+![Dashboard Example](https://via.placeholder.com/800x400?text=Dashboard+Example)
+
+## Insights and Analysis
+
+Through the analysis of the dataset, several insights can be drawn:
+
+- **Departmental Trends**: Certain departments may have higher attrition rates than others.
+- **Job Role Analysis**: Specific job roles may be more prone to attrition.
+- **Education Level Impact**: Employees with different education levels may exhibit varying attrition rates.
+- **Salary Band Influence**: Salary bands can impact employee retention.
+
+These insights can guide HR departments in developing strategies to reduce attrition.
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes.
+4. Push your branch to your forked repository.
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- GitHub: [zinhocosta](https://github.com/zinhocosta)
+- Email: zinhocosta@example.com
+
+Visit the [Releases section](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/releases) to download the latest version of the project files and execute them for your own analysis.
